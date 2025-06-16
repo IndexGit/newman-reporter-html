@@ -1,12 +1,12 @@
 {
   "name": "newman-reporter-html",
-  "version": "1.0.5",
-  "description": "Newman HTML Reporter",
-  "homepage": "https://github.com/postmanlabs/newman-reporter-html",
-  "bugs": "https://github.com/postmanlabs/newman-reporter-html/issues",
+  "version": "1.0.6",
+  "description": "Newman HTML Reporter forked to update packages",
+  "homepage": "https://github.com/IndexGit/newman-reporter-html",
+  "bugs": "https://github.com/IndexGit/newman-reporter-html/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com/postmanlabs/newman-reporter-html.git"
+    "url": "git://github.com/IndexGit/newman-reporter-html.git"
   },
   "keywords": [
     "newman",
@@ -25,12 +25,12 @@
   "license": "Apache-2.0",
   "dependencies": {
     "filesize": "6.0.1",
-    "handlebars": "4.5.3",
-    "lodash": "4.17.15",
+    "handlebars": "^4.7.8",
+    "lodash": "4.17.21",
     "pretty-ms": "5.1.0"
   },
   "devDependencies": {
-    "async": "3.1.0",
+    "async": "^3.2.6",
     "chai": "4.2.0",
     "colors": "1.4.0",
     "editorconfig": "0.15.3",
@@ -39,19 +39,19 @@
     "eslint-plugin-lodash": "6.0.0",
     "eslint-plugin-mocha": "6.2.2",
     "eslint-plugin-security": "1.4.0",
-    "jsdoc": "3.6.3",
-    "jsdoc-to-markdown": "5.0.3",
-    "mocha": "6.2.2",
-    "newman": "4.5.7",
-    "nyc": "14.1.1",
-    "packity": "0.3.2",
+    "jsdoc": "4.0.4",
+    "jsdoc-to-markdown": "^9.1.1",
+    "mocha": "^11.6.0",
+    "newman": "6.1.2",
+    "nyc": "^17.1.0",
+    "packity": "^0.3.5",
     "parse-gitignore": "1.0.1",
     "postman-jsdoc-theme": "0.0.3",
-    "recursive-readdir": "2.2.2",
-    "shelljs": "0.8.3"
+    "recursive-readdir": "^2.2.3",
+    "shelljs": "^0.8.5"
   },
   "peerDependencies": {
-    "newman": "4"
+    "newman": "6"
   },
   "engines": {
     "node": ">=6"
